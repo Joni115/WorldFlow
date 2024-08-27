@@ -1,0 +1,1075 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 11:47:16
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 8.2.21                                |8.2.12
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.2.12 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12
+DOC ROOT____________: "C:/xampp/htdocs/worldflow"
+REQUEST URL_________: "http://localhost/worldflow"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[cpnl-dbaction]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+INSTALL MODES_______: CLASSIC
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/xampp/htdocs/worldflow"
+URL_NEW_____________: "http://localhost/worldflow"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/xampp/htdocs/worldflow/20240826_worldflow_[HASH]_20240826112945_archive.zip"
+ARCHIVE SIZE________: 155.21MB
+CREATED_____________: 2024-08-26 11:29:54
+WP VERSION__________: 6.6.1
+DUP VERSION_________: 4.5.18.2
+LICENSE_____________: Personal
+PACKAGE COMPONENTS__: Database, Core, Plugins, Themes, Media, Other
+DB VERSION__________: 10.4.25
+DB FILE SIZE________: 3.66MB
+DB TABLES___________: 16
+DB ROWS_____________: 906
+URL HOME____________: https://dev-sufi-world-flow.pantheonsite.io
+URL CORE____________: https://dev-sufi-world-flow.pantheonsite.io
+URL CONTENT_________: https://dev-sufi-world-flow.pantheonsite.io/wp-content
+URL UPLOAD__________: https://dev-sufi-world-flow.pantheonsite.io/wp-content/uploads
+URL PLUGINS_________: https://dev-sufi-world-flow.pantheonsite.io/wp-content/plugins
+URL MU PLUGINS______: https://dev-sufi-world-flow.pantheonsite.io/wp-content/mu-plugins
+URL THEMES__________: https://dev-sufi-world-flow.pantheonsite.io/wp-content/themes
+PATH HOME___________: /code
+PATH ABS____________: /code
+PATH WPCONFIG_______: /code
+PATH WPCONTENT______: /code/wp-content
+PATH UPLOADS________: /code/wp-content/uploads
+PATH PLUGINS________: /code/wp-content/plugins
+PATH MUPLUGINS______: /code/wp-content/mu-plugins
+PATH THEMES_________: /code/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "dev-sufi-world-flow.pantheonsite.io/"
+
+PLUGINS
+PLUGIN [SLUG:admin-css-mu/admincssmu.php                       ][ON:true ]  Admin CSS MU
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:content-transformer/content-transformer.php       ][ON:true ]  Content Transformer
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ]  Duplicator Pro
+PLUGIN [SLUG:google-language-translator/google-language-translator.php][ON:true ]  Google Language Translator
+PLUGIN [SLUG:td-cloud-library/td-cloud-library.php             ][ON:true ]  tagDiv Cloud Library
+PLUGIN [SLUG:td-composer/td-composer.php                       ][ON:true ]  tagDiv Composer
+PLUGIN [SLUG:td-newsletter/td-newsletter.php                   ][ON:true ]  tagDiv Newsletter
+PLUGIN [SLUG:td-social-counter/td-social-counter.php           ][ON:true ]  tagDiv Social Counter
+PLUGIN [SLUG:loader.php                                        ][ON:false]  Pantheon MU Plugin Loader
+
+********************************************************************************
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\ctrls\ctrl.base.php:191][DELTA:   0.72072]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\ctrls\ctrl.base.php:191][DELTA:   0.34399]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Overwrite Install" RESULT: good
+
+START TEST "Disaster Recovery" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Disaster Recovery" RESULT: skip
+
+START TEST "Partial Backup Check" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00167]  MESSAGE:TEST "Partial Backup Check" RESULT: passed
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00415]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00082]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00027]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00015]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+LOG-TIME[DELTA:   0.14346]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00079]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00041]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "Wordpress Configuration" [CLASS: DUPX_Validation_test_wp_config]
+LOG-TIME[DELTA:   0.00503]  MESSAGE:TEST "Wordpress Configuration" RESULT: passed
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Functions and Classes" [CLASS: DUPX_Validation_test_php_functionalities]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "PHP Functions and Classes" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00026]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.09240]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00135]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Extract only files" [CLASS: DUPX_Validation_test_db_excluded]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Extract only files" RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00149]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00382]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00041]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00062]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00025]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WP Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00072]  MESSAGE:TEST "Multiple WP Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00333]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.08591]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00063]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00168]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00093]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00088]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 11:47:49
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "World Flow"
+HOME URL NEW________: "http://localhost/worldflow"
+SITE URL NEW________: "http://localhost/worldflow"
+CONTENT URL NEW_____: "http://localhost/worldflow/wp-content"
+UPLOAD URL NEW______: "http://localhost/worldflow/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/worldflow/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/worldflow/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/xampp/htdocs/worldflow"
+SITE PATH NEW_______: "C:/xampp/htdocs/worldflow"
+CONTENT PATH NEW____: "C:/xampp/htdocs/worldflow/wp-content"
+UPLOAD PATH NEW_____: "C:/xampp/htdocs/worldflow/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/xampp/htdocs/worldflow/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/xampp/htdocs/worldflow/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/xampp/htdocs/worldflow/dup-installer"
+	FILE: "C:/xampp/htdocs/worldflow/20240826_worldflow_[HASH]_20240826112945_installer-backup.php"
+	FILE: "C:/xampp/htdocs/worldflow/20240826_worldflow_[HASH]_20240826112945_archive.zip"
+	FILE: "C:/xampp/htdocs/worldflow/installer.php"
+	FILE: "C:/xampp/htdocs/worldflow/dup-installer-bootlog__a1c1f13-26112945.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20240826_worldflow_[HASH]_20240826112945_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING
+*** RESET CONFIG FILES END
+REMOVE DONOTHING FILES
+LOG-TIME RESET TIME
+REMOVE FILES
+LOG-TIME[DELTA:   0.00438]  MESSAGE:FOLDERS REMOVED
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0242 sec. - Files processed: 548 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 548
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0300 sec. - Files processed: 1,766 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 1766
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0347 sec. - Files processed: 3,023 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 3023
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0506 sec. - Files processed: 3,972 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 3972
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0412 sec. - Files processed: 5,078 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 5078
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0625 sec. - Files processed: 6,275 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 6275
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0772 sec. - Files processed: 7,193 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 7193
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0670 sec. - Files processed: 8,204 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 8204
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1389 sec. - Files processed: 8,683 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 8683
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0803 sec. - Files processed: 9,486 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 9486
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0270 sec. - Files processed: 10,169 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 10169
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0295 sec. - Files processed: 10,616 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 10616
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0706 sec. - Files processed: 11,098 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 11098
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0646 sec. - Files processed: 11,575 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 11575
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0519 sec. - Files processed: 11,944 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 11944
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0449 sec. - Files processed: 12,742 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 12742
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0491 sec. - Files processed: 13,209 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 13209
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0966 sec. - Files processed: 13,852 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 13852
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0709 sec. - Files processed: 14,478 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 14478
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0434 sec. - Files processed: 14,966 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 14966
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0408 sec. - Files processed: 15,843 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 15843
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0615 sec. - Files processed: 16,588 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 16588
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0937 sec. - Files processed: 17,614 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 17614
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1155 sec. - Files processed: 18,352 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 18352
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0507 sec. - Files processed: 18,844 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 18844
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0895 sec. - Files processed: 19,215 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 19215
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0598 sec. - Files processed: 19,690 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 19690
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0458 sec. - Files processed: 20,276 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 20276
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/worldflow"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 21530
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 11:51:37 - RUNTIME: 228.0906 sec. - Files processed: 20,603 of 20,603
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 11:51:37
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_backups"___________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_backups]
+TABLE "wp_duplicator_entities"__________________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_entities]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_options"______________________________________[ROWS:     225] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:     356] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:     153] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_termmeta"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_term_relationships"___________________________[ROWS:      49] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_usermeta"_____________________________________[ROWS:     167] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_users]
+TABLE "_pantheon_heartbeat"_____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: _pantheon_heartbeat]
+TABLE "_pt_heartbeat"___________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: _pt_heartbeat]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.24 -- Build Server: 10.4.25
+FILE SIZE:	dup-database__[HASH].sql (1.31MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	42
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "_pantheon_heartbeat"_____________________________[ROWS:     1]
+TABLE "_pt_heartbeat"___________________________________[ROWS:     1]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     1]
+TABLE "wp_duplicator_backups"___________________________[ROWS:     1]
+TABLE "wp_duplicator_entities"__________________________[ROWS:     9]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   225]
+TABLE "wp_postmeta"_____________________________________[ROWS:   356]
+TABLE "wp_posts"________________________________________[ROWS:   153]
+TABLE "wp_term_relationships"___________________________[ROWS:    49]
+TABLE "wp_term_taxonomy"________________________________[ROWS:     9]
+TABLE "wp_termmeta"_____________________________________[ROWS:     0]
+TABLE "wp_terms"________________________________________[ROWS:     9]
+TABLE "wp_usermeta"_____________________________________[ROWS:   167]
+TABLE "wp_users"________________________________________[ROWS:     2]
+
+INSERT DATA RUNTIME: 2.1634 sec.
+STEP-2 COMPLETE @ 11:51:39 - RUNTIME: 2.1640 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /code REPLACE: C:/xampp/htdocs/worldflow [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://dev-sufi-world-flow.pantheonsite.io REPLACE: http://localhost/worldflow [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 11:51:41
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = 1], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 256M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000000
+throttling____________: 2000
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wp_options]
+	`option_name` = "duplicator_pro_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_pro_ui_view_state","duplicator_pro_package_active","duplicator_pro_settings")
+DATABASE OPTIONS DELETED [ROWS:    26]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/code" ===========================================> "C:/xampp/htdocs/worldflow"
+	SEARCH[urlnd]  2:"https://dev-sufi-world-flow.pantheonsite.io" =====> "http://localhost/worldflow"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_duplicator_backups"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_entities"__________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/code" ===========================================> "C:/xampp/htdocs/worldflow"
+	SEARCH[urlnd]  2:"https://dev-sufi-world-flow.pantheonsite.io" =====> "http://localhost/worldflow"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_entities][0]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   199][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/code" ===========================================> "C:/xampp/htdocs/worldflow"
+	SEARCH[urlnd]  2:"https://dev-sufi-world-flow.pantheonsite.io" =====> "http://localhost/worldflow"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   356][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/code" ===========================================> "C:/xampp/htdocs/worldflow"
+	SEARCH[urlnd]  2:"https://dev-sufi-world-flow.pantheonsite.io" =====> "http://localhost/worldflow"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   153][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/code" ===========================================> "C:/xampp/htdocs/worldflow"
+	SEARCH[urlnd]  2:"https://dev-sufi-world-flow.pantheonsite.io" =====> "http://localhost/worldflow"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/code" ===========================================> "C:/xampp/htdocs/worldflow"
+	SEARCH[urlnd]  2:"https://dev-sufi-world-flow.pantheonsite.io" =====> "http://localhost/worldflow"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    49][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/code" ===========================================> "C:/xampp/htdocs/worldflow"
+	SEARCH[urlnd]  2:"https://dev-sufi-world-flow.pantheonsite.io" =====> "http://localhost/worldflow"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   167][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/code" ===========================================> "C:/xampp/htdocs/worldflow"
+	SEARCH[urlnd]  2:"https://dev-sufi-world-flow.pantheonsite.io" =====> "http://localhost/worldflow"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/code" ===========================================> "C:/xampp/htdocs/worldflow"
+	SEARCH[urlnd]  2:"https://dev-sufi-world-flow.pantheonsite.io" =====> "http://localhost/worldflow"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "_pantheon_heartbeat"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/code" ===========================================> "C:/xampp/htdocs/worldflow"
+	SEARCH[urlnd]  2:"https://dev-sufi-world-flow.pantheonsite.io" =====> "http://localhost/worldflow"
+	CHUNK ACTION: CURRENT [search_replace][_pantheon_heartbeat][0]
+
+EVALUATE TABLE: "_pt_heartbeat"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/code" ===========================================> "C:/xampp/htdocs/worldflow"
+	SEARCH[urlnd]  2:"https://dev-sufi-world-flow.pantheonsite.io" =====> "http://localhost/worldflow"
+	CHUNK ACTION: CURRENT [search_replace][_pt_heartbeat][0]
+--------------------------------------
+SCANNED:	Tables:16 	|	 Rows:907 	|	 Cells:6639 
+UPDATED:	Tables:4 	|	 Rows:112 	|	 Cells:115 
+ERRORS:		0 
+RUNTIME:	1.849400 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/xampp/htdocs/worldflow/wp-config.php
+New .htaccess file created:C:/xampp/htdocs/worldflow/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""worldflow""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+UPDATE OPTION home ON TABLE wp_options
+UPDATE OPTION siteurl ON TABLE wp_options
+UPDATE OPTION duplicator_pro_exe_safe_mode ON TABLE wp_options
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+ - REMOVED 0 storage items
+ - REMOVED 0 schedule items
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 11:51:44 - RUNTIME: 3.6652 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\src\Core\Bootstrap.php:76] RESET TIME
+STEP ACTION: "on-validate"
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[C:\xampp\htdocs\worldflow\dup-installer\ctrls\ctrl.base.php:191][DELTA:   1.72137]  MESSAGE:END RENDER PAGE

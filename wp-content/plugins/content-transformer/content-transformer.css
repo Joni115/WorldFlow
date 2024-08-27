@@ -1,0 +1,58 @@
+#summarizer_input, #summarizer_output, #paraphraser_input, #paraphraser_output {
+    width: 100%;
+    max-width: 600px;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    resize: vertical;
+}
+
+#summarize_button, #paraphrase_button {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#summarize_button:hover, #paraphrase_button:hover {
+    background-color: #005177;
+}
+
+.text-forms_wrap h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.text-forms_wrap form {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.text-forms_wrap {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+form.form-content-transformer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-text-label{
+    align-self: flex-start;
+    padding: 26px;
+}
+#loader {
+    display: none;
+    font-size: 16px;
+    color: #555;
+}
